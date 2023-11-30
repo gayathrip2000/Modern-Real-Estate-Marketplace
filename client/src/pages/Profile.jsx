@@ -167,6 +167,7 @@ export default function Profile() {
           hidden
           accept="image/*"
         />
+        
         <img
           onClick={() => fileRef.current.click()}
           src={formData.avatar || currentUser.avatar}
